@@ -35,7 +35,7 @@ local SubHubs = Window:CreateTab("Sub Hubs", 4483362458)
 local Button = Tab:CreateButton({
    Name = "Button Example",
    Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/yaboi-v3rt3x/Nexus/main/Sub-Hubs/Prison%20Life.lua"))()
+      game:HttpGet("https://raw.githubusercontent.com/yaboi-v3rt3x/Nexus/main/Sub-Hubs/Prison%20Life.lua")
    end,
 })
 
