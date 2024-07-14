@@ -1,2 +1,9 @@
-# Nexus
- A Roblox exploit hub with all sorts of universal scripts, sub-hub's for other games, and more!
+# What is Nexus?
+Nexus is a Roblox exploit hub with all sorts of universal scripts, sub-hub's for other games, and more!
+
+## Nexus is currently under development and doesn't work as of 07/14/2024!
+
+# Change Log (07/14/2024)
+==================
+Set Up Minimal Assets Of Main Hub
+Added Prison Life Sub-Hub (Still in development!)
