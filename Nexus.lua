@@ -66,24 +66,6 @@ local function StopAnim()
    end
 end
 
-local Default = AnimationHub:CreateButton({
-   Name = "Default Animation Pack",
-   Callback = function()
-      local Animate = char.Animate
-      Animate.Disabled = true
-      StopAnim()
-      Animate.idle.Animation1.AnimationId = "http://www.roblox.com/asset/?id=180435571"
-      Animate.idle.Animation2.AnimationId = "http://www.roblox.com/asset/?id=180435792"
-      Animate.walk.WalkAnim.AnimationId = "http://www.roblox.com/asset/?id=180426354"
-      Animate.run.RunAnim.AnimationId = "http://www.roblox.com/asset/?id=180426354"
-      Animate.jump.JumpAnim.AnimationId = "http://www.roblox.com/asset/?id=125750702"
-      Animate.climb.ClimbAnim.AnimationId = "http://www.roblox.com/asset/?id=180436334"
-      Animate.fall.FallAnim.AnimationId = "http://www.roblox.com/asset/?id=180436148"
-      char.Humanoid:ChangeState(3)
-      Animate.Disabled = false
-   end,
-})
-
 local Vampire = AnimationHub:CreateButton({
    Name = "Vampire Animation Pack",
    Callback = function()
