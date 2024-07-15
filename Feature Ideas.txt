@@ -1,2 +1,5 @@
 Game Information Tab  
 => Displays the games name, server location, server jobid, user information, and more!
+
+In-Game Change Logs
+=> Change logs tab in-game
